@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 # Simple function to display master volume
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 # Simple script to show current spotify track information
 

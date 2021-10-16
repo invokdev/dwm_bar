@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # fucntion to show Alsa volume
-
+# Dependencies: alsa-utils
 
 dwm_alsa () {
 	STATUS=$(amixer sget Master | tail -n1 | sed -r "s/.*\[(.*)\]/\1/")
