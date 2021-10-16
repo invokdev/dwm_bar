@@ -4,7 +4,7 @@
 
 dwm_disk () {
   disk=$(df -Ph | grep "/dev/root" | awk {'print $5'})
-  echo -e ": $disk"
+  echo -e "$SEP : $disk"
 }
 
 dwm_disk

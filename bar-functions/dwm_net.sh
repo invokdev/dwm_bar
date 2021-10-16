@@ -12,8 +12,8 @@ netdown () {
   echo -e ": $down"
 }
 
-show () {
-  echo -e "$(netup) | $(netdown)"
+dwm_net () {
+  echo -e "$SEP $(netup) | $(netdown)"
 }
 
-show
+dwm_net
