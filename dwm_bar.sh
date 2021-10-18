@@ -14,7 +14,8 @@ DIR=$(dirname "$LOC")
 
 export IDENTIFIER="unicode"
 
-export SEP="|"
+export SEP1="["
+export SEP2="]"
 
 # Import modules
 

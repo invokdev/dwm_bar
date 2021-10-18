@@ -6,7 +6,9 @@
 
 dwm_temp () {
   temp=$(($(cat /sys/class/thermal/thermal_zone2/temp) / 1000))
-  echo -e "$SEP : $temp°C"
+  icon=""
+  csym="°C"
+  printf "%s%s %s%s%s" "$SEP1" "$icon" "$temp" "$csym" "$SEP2"
 }
 
 dwm_temp

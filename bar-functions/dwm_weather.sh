@@ -5,7 +5,8 @@
 dwm_weather() {
     LOCATION=Atlanta
     weather=$(curl -s wttr.in/$LOCATION?format=1 | grep -o ".[0-9].*")
-    echo -e "$SEP : $weather"
+    icon=""
+    printf "%s%s %s%s" "$SEP1" "$icon" "$weather" "$SEP2"
   }
 
 dwm_weather

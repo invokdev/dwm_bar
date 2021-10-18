@@ -2,18 +2,12 @@
 
 # Bash script to show download and upload speed
 
-netup () {
-  up=$(ifconfig eno1 | grep "TX packets" | awk {'print $6 $7'})
-  echo -e ": $up"
-}
-
-netdown () {
-  down=$(ifconfig eno1 | grep "RX packets" | awk {'print $6 $7'})
-  echo -e ": $down"
-}
-
 dwm_net () {
-  echo -e "$SEP $(netup) | $(netdown)"
+  up=$(ifconfig eno1 | grep "TX packets" | awk {'print $6 $7'})
+  down=$(ifconfig eno1 | grep "RX packets" | awk {'print $6 $7'})
+  icon1=""
+  icon2=""
+  printf "%s%s %s %s %s%s" "$SEP1" "$icon1" "$up" "$icon2" "$down" "$SEP2"
 }
 
 dwm_net
