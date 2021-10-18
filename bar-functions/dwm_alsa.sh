@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 # fucntion to show Alsa volume
 # Dependencies: alsa-utils

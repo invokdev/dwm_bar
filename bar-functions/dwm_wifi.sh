@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 # Bash script for wifi connection
 # Dependencies: NetworkManager

@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 # Status bar for DWM
 # Kevin Dempsey - InvokDEV

@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 # Bash script for checking CPU temperature
 

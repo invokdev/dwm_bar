@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 # A bash script to show CPU usage.
 

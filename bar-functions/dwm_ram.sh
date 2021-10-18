@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 # Simple bash script for RAM usage
 dwm_ram () {

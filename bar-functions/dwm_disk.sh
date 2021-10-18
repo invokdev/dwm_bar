@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 # Bash script to display home disk usage
 
