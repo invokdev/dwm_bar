@@ -5,7 +5,8 @@
 
 dwm_wifi () {
   wifi=$(nmcli dev wifi | grep -E '^[*]' | awk '/*/ {print $3}')
-  echo -e ": $wifi"
+  icon=""
+  printf "%s%s %s%s" "$SEP1" "$icon" "$wifi" "$SEP2"
 }
 
 dwm_wifi
