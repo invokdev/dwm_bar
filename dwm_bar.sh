@@ -19,16 +19,13 @@ export SEP2="]"
 
 # Import modules
 
-. "$DIR/bar-functions/dwm_alsa.sh"
 . "$DIR/bar-functions/dwm_battery.sh"
-. "$DIR/bar-functions/dwm_battery2.sh"
 . "$DIR/bar-functions/dwm_cpu.sh"
 . "$DIR/bar-functions/dwm_disk.sh"
 . "$DIR/bar-functions/dwm_dte.sh"
 . "$DIR/bar-functions/dwm_net.sh"
 . "$DIR/bar-functions/dwm_volume.sh"
 . "$DIR/bar-functions/dwm_ram.sh"
-. "$DIR/bar-functions/dwm_spotify.sh"
 . "$DIR/bar-functions/dwm_temp.sh"
 . "$DIR/bar-functions/dwm_weather.sh"
 . "$DIR/bar-functions/dwm_wifi.sh"
@@ -53,5 +50,5 @@ do
 
   xsetroot -name "$upperbar"
 
-  sleep 5s
+  sleep 3s
 done
